@@ -504,7 +504,6 @@ footer p {
 /* --------- MOBILE STYLES ---------- */
 
 @media only screen and (max-width: 768px) {
-
   #header {
   position: sticky;
   flex-wrap: wrap;
@@ -530,12 +529,13 @@ footer p {
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
+  gap: 10px;
   padding: 40px 10px;
 }
   
 img.round {
-  width: 150px;
-  height: 150px;
+  width: 30%;
+  height: 30%;
   border-radius: 100%;
   object-fit: cover;
 }
@@ -551,12 +551,6 @@ img.round {
   display: flex;
   flex-direction: column;
   padding: 20px;
-}
-  
-  #shop .text-box {
-  display: flex;
-  flex-direction: column;
-  padding: 40px; /* adjust */
 }
 
 h1 {
@@ -728,4 +722,4 @@ h1 {
   text-align: left;
   gap: 20px;
   padding: 40px 10px;
-}
+  }}
